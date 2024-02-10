@@ -41,10 +41,9 @@ function App() {
             <Route path="/cardlist" element={<CardList />} />
             <Route path="/about" element={<About />} />
             <Route path="/trainers" element={<TrainersPage/>} />
+            <Route path="/home" element={<Home/>} />
 
-
-
-          </Routes>
+         </Routes>
         </ScrollToTop>
       </Router>
     </>
