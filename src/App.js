@@ -41,14 +41,12 @@ function App() {
             <Route path="/cardlist" element={<CardList />} />
             <Route path="/about" element={<About />} />
             <Route path="/trainers" element={<TrainersPage/>} />
-            <Route path="/home" element={<Home/>} />
-
+            {/* Remove the duplicate route for "/home" */}
          </Routes>
         </ScrollToTop>
       </Router>
     </>
   );
 }
-
 
 export default App;
