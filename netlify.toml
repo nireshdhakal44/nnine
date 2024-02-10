@@ -1,6 +1,6 @@
 [build]
-  command = "npm runs build"
-  publish = ".next"
+command = "npm runs build"
+publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
