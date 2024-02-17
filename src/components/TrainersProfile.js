@@ -13,7 +13,7 @@ const TrainerProfile = (props) => {
         src={props.imageUrl}
         alt={props.imageAlt}
         className="w-full h-auto cursor-pointer"
-        style={{ height: '200px' }}
+        style={{ height: '250px' }}
         onClick={handleImageClick}
       />
       {isImageClicked && (
