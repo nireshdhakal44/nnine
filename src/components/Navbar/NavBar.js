@@ -1,4 +1,3 @@
-// NavBar.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NavLinks from '../Navbar/NavLinks';
@@ -35,11 +34,9 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    {isOpen && (
-                        <div className="lg:hidden bg-white p-5 absolute top-14 left-0 right-0">
-                            <NavLinks />
-                        </div>
-                    )}
+                    <ul className={`lg:flex lg:flex-row lg:space-x-6 lg:p-5 ${isOpen ? 'block' : 'hidden'} absolute top-16 right-0 bg-white lg:relative lg:bg-transparent lg:top-auto lg:right-auto lg:w-auto`}>
+                        <NavLinks />
+                    </ul>
                 </div>
             </div>
         </nav>
