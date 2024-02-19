@@ -9,12 +9,12 @@ const CourseCard = ({ course }) => {
                     <h2 className="text-lg font-semibold text-gray-800 mb-2">{course.name}</h2>
                 </div>
                 <div className="md:w-1/3 md:text-right md:mt-0 mt-2">
-                    <a href={course.formLink} target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-white hover:bg-blue-700 font-semibold py-1 px-2 rounded-full inline-block md:mr-2 mb-2 md:mb-0">
+                    <button href={course.formLink} target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-white hover:bg-blue-700 font-semibold py-1 px-2 rounded-full inline-block md:mr-2 mb-2 md:mb-0">
                         Enroll Now
-                    </a>
-                    <a href="#" className="bg-green-500 text-white hover:bg-green-700 font-semibold py-1 px-2 rounded-full inline-block">
+                    </button>
+                    <button href='#' className="bg-green-500 text-white hover:bg-green-700 font-semibold py-1 px-2 rounded-full inline-block">
                         View
-                    </a>
+                    </button>
                 </div>
 
             </div>
