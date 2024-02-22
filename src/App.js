@@ -12,6 +12,12 @@ import ScrollToTop from './components/ScrollToTop';
 import CourseList from './components/CourseList';
 import TrainersPage from './components/TrainersPage';
 import Syllabusmap from './Syllabusmap';
+import AWSDeveloperAssociateSyllabus from './syllabus/AWSDeveloperAssociateSyllabus';
+import AWSSolutionArchitect from './syllabus/AWSSolutionArchitect';
+import DataAnalytics from  './syllabus/DataAnalytics';
+import DevOpsSyllabus from './syllabus/DevOpsSyllabus';
+import MERNStackSyllabus from './syllabus/MERNStackSyllabus';
+import PythonDjangoSyllabus from './syllabus/PythonDjangoSyllabus';
 import About from './pages/About';
 
 function App() {
