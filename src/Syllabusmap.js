@@ -12,7 +12,7 @@ function Syllabusmap() {
 
   switch (subject) {
     case 'DevOps':
-      return <DevOps />;
+      return <DevOps/>;
     case 'AWSDeveloperAssociateSyllabus':
       return <AWSDeveloperAssociateSyllabus />;
     case 'DataAnalytics':

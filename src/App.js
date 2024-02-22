@@ -42,6 +42,7 @@ function App() {
             <Route path="/courselist" element={<CourseList />} />
             <Route path="/about" element={<About />} />
             <Route path="/syllabus/:subject" element={<Syllabusmap/>} />
+            <Route path="/syllabusmap" element={<Syllabusmap/>} />
             <Route path="/trainers" element={<TrainersPage/>} />
          </Routes>
         </ScrollToTop>
