@@ -10,4 +10,3 @@
     3. Database Course
     4. RHEL
     4. Debian
-    sf

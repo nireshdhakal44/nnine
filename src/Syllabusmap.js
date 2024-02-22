@@ -11,7 +11,7 @@ function Syllabusmap() {
   const { subject } = useParams();
 
   switch (subject) {
-    case 'DevOps':
+    case 'DevOpsSyllabus':
       return <DevOpsSyllabus/>;
     case 'AWSDeveloperAssociateSyllabus':
       return <AWSDeveloperAssociateSyllabus />;
